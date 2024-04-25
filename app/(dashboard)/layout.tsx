@@ -1,7 +1,10 @@
 "use client";
+import { ChangeEvent, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import CheckboxCustom from "@/components/Checkbox";
+import { ChevronDownIcon, PencilIcon } from "@heroicons/react/24/outline";
 import {
   AdjustmentsHorizontalIcon,
   ArrowRightOnRectangleIcon,
@@ -36,6 +39,26 @@ export default function RootLayout({
 
     // Join the words with a space
     const result = capitalizedWords.join(" ");
+    const [imageSrc, setImageSrc] = useState<string>("/img/team-1.");
+
+    /*const handleImageClick = () => {
+      if (inputFileRef.current) {
+        inputFileRef.current.click();
+      }
+    };
+  
+    const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
+      const files = event.target.files;
+      if (files && files.length > 0) {
+        const reader = new FileReader();
+        reader.onload = () => {
+          if (reader.result) {
+            setImageSrc(reader.result.toString());
+          }
+        };
+        reader.readAsDataURL(files[0]);
+      }
+    };*/
 
     return result;
   };
@@ -106,8 +129,8 @@ export default function RootLayout({
                   </div>
                 </div>
                 <div className="text-center mb-10">
-                  <h4 className="text-2xl font-semibold"> Savannah Nguyen </h4>
-                  <p className="mb-0"> info@example.com </p>
+                  <h4 className="text-2xl font-semibold"> NJ.JAFAR </h4>
+                  <p className="mb-0"> jafar@.com </p>
                 </div>
                 <div className="mb-10">
                   <span className="block clr-neutral-400 text-xs mb-4">

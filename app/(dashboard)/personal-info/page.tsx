@@ -8,7 +8,7 @@ import { ChangeEvent, useRef, useState } from "react";
 
 const Page = () => {
   const inputFileRef = useRef<HTMLInputElement>(null);
-  const [imageSrc, setImageSrc] = useState<string>("/img/team-1.jpg");
+  const [imageSrc, setImageSrc] = useState<string>("/img/user-1.PNG");
 
   const handleImageClick = () => {
     if (inputFileRef.current) {
@@ -212,6 +212,8 @@ const Page = () => {
                     <option value="1">New York</option>
                     <option value="2">Chicago</option>
                     <option value="3">Atlanta</option>
+                    <option value="3">Yaounde</option>
+                    <option value="3">ouala</option>
                   </select>
                 </div>
               </div>
@@ -298,7 +300,8 @@ const Page = () => {
                     <option>Anyone</option>
                     <option value="1">New York</option>
                     <option value="2">Chicago</option>
-                    <option value="3">Atlanta</option>
+                    <option value="3">Douala</option>
+                    <option value="3">Bafoussam</option>
                   </select>
                 </div>
               </div>

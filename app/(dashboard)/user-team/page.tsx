@@ -24,7 +24,7 @@ const page = () => {
                     <Image
                       width={96}
                       height={96}
-                      src="/img/user-1.jpg"
+                      src="/img/user-1.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -73,7 +73,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-2.jpg"
+                      src="/img/user-2.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -122,7 +122,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-3.jpg"
+                      src="/img/user-3.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -171,7 +171,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-4.jpg"
+                      src="/img/user-4.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -220,7 +220,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-5.jpg"
+                      src="/img/user-5.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -269,7 +269,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-6.jpg"
+                      src="/img/user-6.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -318,7 +318,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-1.jpg"
+                      src="/img/user-1.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -367,7 +367,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-2.jpg"
+                      src="/img/user-2.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -416,7 +416,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-3.jpg"
+                      src="/img/user-3.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -465,7 +465,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-4.jpg"
+                      src="/img/user-4.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -514,7 +514,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-5.jpg"
+                      src="/img/user-5.PNG"
                       alt="image"
                       className="w-full h-full"
                     />
@@ -563,7 +563,7 @@ const page = () => {
                     <Image
                       width={40}
                       height={40}
-                      src="/img/user-6.jpg"
+                      src="/img/user-6.PNG"
                       alt="image"
                       className="w-full h-full"
                     />

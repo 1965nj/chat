@@ -14,7 +14,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 const Page = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
+ const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (scrollRef.current) {
@@ -29,7 +29,7 @@ const Page = () => {
             <Image
               width={60}
               height={60}
-              src="/img/user-1.jpg"
+              src="/img/user-1.PNG"
               alt="image"
               className="w-full h-full object-fit-cover"
             />
@@ -69,7 +69,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-1.jpg"
+                    src="/img/user-1.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -77,7 +77,7 @@ const Page = () => {
                 </div>
                 <div className="flex-grow flex items-center justify-between gap-4">
                   <div className="flex-grow">
-                    <p className="font-semibold mb-1"> Theresa Webb </p>
+                    <p className="font-semibold mb-1"> jafar </p>
                     <span className="block text-xs clr-neutral-500">
                       just ideas for next time
                     </span>
@@ -87,7 +87,7 @@ const Page = () => {
                       <span className="text-sm lh-1">1</span>
                     </div>
                     <span className="inline-block text-primary text-xs">
-                      4m
+                      10m
                     </span>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-2.jpg"
+                    src="/img/user-2.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -107,9 +107,9 @@ const Page = () => {
                 </div>
                 <div className="flex-grow flex items-center justify-between gap-4">
                   <div className="flex-grow">
-                    <p className="font-semibold mb-1"> Bessie Cooper </p>
+                    <p className="font-semibold mb-1"> Lissom </p>
                     <span className="block text-xs clr-neutral-500">
-                      omg, this is amazing
+                       this is amazing
                     </span>
                   </div>
                   <div className="shrink-0 inline-block text-center">
@@ -117,7 +117,7 @@ const Page = () => {
                       <span className="text-sm lh-1">3</span>
                     </div>
                     <span className="inline-block text-primary text-xs">
-                      27m
+                      20m
                     </span>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-3.jpg"
+                    src="/img/user-3.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -137,7 +137,7 @@ const Page = () => {
                 </div>
                 <div className="flex-grow flex items-center justify-between gap-4">
                   <div className="flex-grow">
-                    <p className="font-semibold mb-1"> Ralph Edwards </p>
+                    <p className="font-semibold mb-1"> Dimitry </p>
                     <span className="block text-xs clr-neutral-500">
                       You : perfect!
                     </span>
@@ -159,7 +159,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-4.jpg"
+                    src="/img/user-4.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -167,9 +167,9 @@ const Page = () => {
                 </div>
                 <div className="flex-grow flex items-center justify-between gap-4">
                   <div className="flex-grow">
-                    <p className="font-semibold mb-1"> Jerome Bell </p>
+                    <p className="font-semibold mb-1"> Samuel </p>
                     <span className="block text-xs clr-neutral-500">
-                      woohoooo
+                     oolalalah
                     </span>
                   </div>
                   <div className="shrink-0 inline-block text-center">
@@ -186,7 +186,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-5.jpg"
+                    src="/img/user-5.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -194,7 +194,7 @@ const Page = () => {
                 </div>
                 <div className="flex-grow flex items-center justify-between gap-4">
                   <div className="flex-grow">
-                    <p className="font-semibold mb-1"> Floyd Miles </p>
+                    <p className="font-semibold mb-1"> Freddy</p>
                     <span className="block text-xs clr-neutral-500">
                       You : Wow, this is really
                     </span>
@@ -213,7 +213,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-6.jpg"
+                    src="/img/user-6.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -240,7 +240,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-1.jpg"
+                    src="/img/user-1.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -267,7 +267,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-2.jpg"
+                    src="/img/user-2.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -294,7 +294,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-3.jpg"
+                    src="/img/user-3.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -321,7 +321,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-4.jpg"
+                    src="/img/user-4.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -348,7 +348,7 @@ const Page = () => {
                   <Image
                     width={44}
                     height={44}
-                    src="/img/user-5.jpg"
+                    src="/img/user-5.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                   />
@@ -380,7 +380,7 @@ const Page = () => {
                 <Image
                   width={60}
                   height={60}
-                  src="/img/user-5.jpg"
+                  src="/img/user-5.PNG"
                   alt="image"
                   className="w-full h-full object-fit-cover overflow-hidden rounded-full"
                 />
@@ -413,7 +413,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-5.jpg"
+                    src="/img/user-5.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -436,7 +436,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-2.jpg"
+                    src="/img/user-2.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -449,7 +449,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-5.jpg"
+                    src="/img/user-5.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -472,7 +472,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-2.jpg"
+                    src="/img/user-2.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -485,7 +485,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-5.jpg"
+                    src="/img/user-5.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -508,7 +508,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-2.jpg"
+                    src="/img/user-2.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -521,7 +521,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-5.jpg"
+                    src="/img/user-5.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
@@ -544,7 +544,7 @@ const Page = () => {
                   <Image
                     width={48}
                     height={48}
-                    src="/img/user-2.jpg"
+                    src="/img/user-2.PNG"
                     alt="image"
                     className="w-full h-full object-fit-cover"
                   />
