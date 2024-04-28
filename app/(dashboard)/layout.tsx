@@ -3,8 +3,6 @@ import { ChangeEvent, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import CheckboxCustom from "@/components/Checkbox";
-import { ChevronDownIcon, PencilIcon } from "@heroicons/react/24/outline";
 import {
   AdjustmentsHorizontalIcon,
   ArrowRightOnRectangleIcon,
@@ -67,7 +65,7 @@ export default function RootLayout({
 
   return (
     <>
-      <div className="py-[30px] lg:py-[60px] bg-[#091E43] px-3">
+      <div className="py-[30px] lg:py-[60px] bg-[#2D3A96] px-3">
         <div className="container">
           <div className="grid grid-cols-12 gap-4 items-center">
             <div className="col-span-12 md:col-span-6">
@@ -96,7 +94,7 @@ export default function RootLayout({
               <div className="flex md:justify-end">
                 <Link
                   href="#"
-                  className="link inline-flex items-center gap-2 py-3 px-6 rounded-full bg-[#243756] hover:bg-primary">
+                  className="link inline-flex items-center gap-2 py-3 px-6 rounded-full bg-[#2D3A96] hover:bg-primary">
                   <ArrowRightOnRectangleIcon className="w-5 h-5 text-white" />
                   <span className="inline-block text-white font-semibold">
                     Logout
@@ -109,7 +107,7 @@ export default function RootLayout({
       </div>
 
       <div className="pb-[30px] lg:pb-[60px] pt-0 relative z-[1] px-3">
-        <span className="w-full h-[7.5rem] absolute start-0 end-0 top-0 z-[-1] bg-[#091E43]"></span>
+        <span className="w-full h-[7.5rem] absolute start-0 end-0 top-0 z-[-1] bg-[#2D3A96]"></span>
         <div className="container">
           <div className="grid grid-cols-12 gap-4 lg:gap-6">
             <div
@@ -120,7 +118,7 @@ export default function RootLayout({
                   <Image
                     width={96}
                     height={96}
-                    src="/img/team-1.jpg"
+                    src="/img/user-1.PNG"
                     alt="image"
                     className="rounded-full"
                   />
@@ -186,9 +184,9 @@ export default function RootLayout({
                     </li>
                     <li>
                       <Link
-                        href="/user-chat"
+                        href="/chat"
                         className={`link flex items-center gap-2 clr-neutral-500 hover:text-primary ${
-                          path === "/user-chat" && "text-primary"
+                          path === "/chat" && "text-primary"
                         }`}>
                         <ChatBubbleLeftRightIcon className="w-5 h-5" />
                         <span className="block font-medium"> Chat </span>
