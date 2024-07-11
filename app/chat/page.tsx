@@ -32,19 +32,19 @@ const Page = () => {
               height={20}
               src="/img/back.PNG"
               alt="image"
-              className="w-full h-full object-fit-cover"
+              className="w-full h-full object-fit-cover hover:text-primary"
             />
             </Link>
           </div>
-          <div className="flex gap-3 items-center justify-content-end flex-wrap">
+          <div className="flex gap-3 items-center justify-content-end flex-wrap hover:text-primary">
             <Link
               href="#"
-              className="link inline-block shrink-0 text-[var(--neutral-700)] hover:text-primary">
+              className="link inline-block shrink-0 text-[var(--neutral-700)] ">
               <i className="las la-edit text-3xl"></i>
             </Link>
             <Link
               href="#"
-              className="link inline-block shrink-0 text-[var(--neutral-700)] hover:text-primary">
+              className="link inline-block shrink-0 text-[var(--neutral-700)] ">
               <i className="las la-ellipsis-v text-3xl"></i>
             </Link>
           </div>
@@ -57,7 +57,7 @@ const Page = () => {
           />
           <button
             type="button"
-            className="grid place-content-center  w-10 h-10 rounded-full border-0 bg-primary text-white shrink-0">
+            className="grid place-content-center  w-10 h-10 rounded-full border-0 bg-primary text-white shrink-0 hover:text-primary">
             <MagnifyingGlassIcon className="h-5 w-5" />
           </button>
         </div>
